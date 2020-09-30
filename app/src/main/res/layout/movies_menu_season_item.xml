@@ -2,10 +2,10 @@
     <data>
         <variable
             name="seasonModel"
-            type="com.livetv.android.model.Season" />
+            type="com.livetv.normal.model.Season" />
         <variable
             name="seasonAdapter"
-            type="com.livetv.android.view.adapters.SeasonsRecyclerAdapter" />
+            type="com.livetv.normal.view.adapters.SeasonsRecyclerAdapter" />
     </data>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"

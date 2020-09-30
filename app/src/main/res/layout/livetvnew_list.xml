@@ -4,10 +4,10 @@
     <data>
         <variable
             name="liveProgramItem"
-            type="com.livetv.android.model.LiveProgram" />
+            type="com.livetv.normal.model.LiveProgram" />
         <variable
             name="livetvAdapter"
-            type="com.livetv.android.view.adapters.LivetvAdapterNew" />
+            type="com.livetv.normal.view.adapters.LivetvAdapterNew" />
 
     </data>
     <LinearLayout

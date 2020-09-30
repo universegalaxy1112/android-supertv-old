@@ -2,12 +2,12 @@
     <data>
         <variable
             name="moviesMenuItem"
-            type="com.livetv.android.model.Movie" />
+            type="com.livetv.normal.model.Movie" />
         <variable
             name="moviesAdapter"
-            type="com.livetv.android.view.adapters.MoviesRecyclerAdapter" />
+            type="com.livetv.normal.view.adapters.MoviesRecyclerAdapter" />
     </data>
-<com.livetv.android.view.custom_views.MovieItemRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.livetv.normal.view.custom_views.MovieItemRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -50,5 +50,5 @@
             android:textColor="@color/colorTextTitle"
             android:visibility="visible" />
     </android.support.v7.widget.CardView>
-</com.livetv.android.view.custom_views.MovieItemRelativeLayout>
+</com.livetv.normal.view.custom_views.MovieItemRelativeLayout>
 </layout>

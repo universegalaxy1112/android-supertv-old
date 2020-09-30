@@ -5,7 +5,7 @@
     <data>
         <variable
             name="moviesMenuFragmentVM"
-            type="com.livetv.android.viewmodel.MoviesMenuViewModel" />
+            type="com.livetv.normal.viewmodel.MoviesMenuViewModel" />
     </data>
 
 <LinearLayout

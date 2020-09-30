@@ -94,7 +94,7 @@
     </style>
     <style name="text.livetv">
         <item name="android:textColor">@color/live_category_text</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">13sp</item>
     </style>
 
     <style name="text.movie_detail_title"  >

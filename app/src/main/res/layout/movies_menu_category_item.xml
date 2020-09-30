@@ -2,10 +2,10 @@
     <data>
         <variable
             name="movieCategory"
-            type="com.livetv.android.model.MovieCategory" />
+            type="com.livetv.normal.model.MovieCategory" />
         <variable
             name="categoryAdapter"
-            type="com.livetv.android.view.adapters.MoviesCategoryRecyclerAdapter" />
+            type="com.livetv.normal.view.adapters.MoviesCategoryRecyclerAdapter" />
     </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
@@ -52,7 +52,7 @@
             android:src="@drawable/more_icon" />
     </RelativeLayout>
 
-    <com.livetv.android.view.custom_views.MovieCategoryRelativeLayout
+    <com.livetv.normal.view.custom_views.MovieCategoryRelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/transparent"
@@ -100,6 +100,6 @@
             android:text="@string/movies_loading_error"
             android:textColor="@color/colorPrimary"
             android:visibility="gone" />
-    </com.livetv.android.view.custom_views.MovieCategoryRelativeLayout>
+    </com.livetv.normal.view.custom_views.MovieCategoryRelativeLayout>
 </LinearLayout>
 </layout>

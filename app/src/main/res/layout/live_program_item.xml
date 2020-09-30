@@ -3,17 +3,17 @@
     <data>
         <variable
             name="liveProgramItem"
-            type="com.livetv.android.model.LiveProgram" />
+            type="com.livetv.normal.model.LiveProgram" />
         <variable
             name="liveTVAdapter"
-            type="com.livetv.android.view.adapters.LiveTVRecyclerAdapter" />
+            type="com.livetv.normal.view.adapters.LiveTVRecyclerAdapter" />
     </data>
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.livetv.android.view.custom_views.LiveTVItemLinearLayout
+    <com.livetv.normal.view.custom_views.LiveTVItemLinearLayout
         android:id="@+id/livetv_program"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="6">
 
-                <com.livetv.android.view.custom_views.CustomChannelIcon
+                <com.livetv.normal.view.custom_views.CustomChannelIcon
                     android:id="@+id/movie_image"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -92,7 +92,7 @@
             android:text="@{liveProgramItem.epg_despues}"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:textColor="@color/text_light_color" />
-    </com.livetv.android.view.custom_views.LiveTVItemLinearLayout>
+    </com.livetv.normal.view.custom_views.LiveTVItemLinearLayout>
 
     <View
         android:id="@+id/live_tv_channel_color_view"

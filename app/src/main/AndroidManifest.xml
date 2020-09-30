@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.livetv.android">
+    package="com.livetv.normal">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
@@ -25,7 +25,7 @@
         android:required="false"/>
 
     <application
-        android:name=".LiveTvApplication"
+        android:name="com.livetv.normal.LiveTvApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -38,7 +38,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.livetv.android.fileprovider"
+            android:authorities="com.livetv.normal.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">
@@ -49,7 +49,7 @@
         </provider>
 
         <activity
-            android:name=".view.SplashActivity"
+            android:name="com.livetv.normal.view.SplashActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -64,47 +64,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.MainCategoriesMenuActivity"
+            android:name="com.livetv.normal.view.MainCategoriesMenuActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.LoadingMoviesActivity"
+            android:name="com.livetv.normal.view.LoadingMoviesActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_loading_movies"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.MoviesMenuActivity"
+            android:name="com.livetv.normal.view.MoviesMenuActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_movies_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.MovieDetailsActivity"
+            android:name="com.livetv.normal.view.MovieDetailsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_movie_details"
             android:theme="@style/AppTheme.NoActionBar.Details" />
         <activity
-            android:name=".view.exoplayer.VideoActivity"
+            android:name="com.livetv.normal.view.exoplayer.VideoActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/VideoTheme" />
         <activity
-            android:name=".view.MoviesGridActivity"
+            android:name="com.livetv.normal.view.MoviesGridActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.SearchActivity"
+            android:name="com.livetv.normal.view.SearchActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.LoginActivity"
+            android:name="com.livetv.normal.view.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.AccountDetailsActivity"
+            android:name="com.livetv.normal.view.AccountDetailsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.LiveTvNewActivity"
+            android:name="com.livetv.normal.view.LiveTvNewActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

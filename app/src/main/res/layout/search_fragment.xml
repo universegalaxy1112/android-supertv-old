@@ -7,7 +7,7 @@
     <data>
         <variable
             name="searchFragmentVM"
-            type="com.livetv.android.viewmodel.SearchViewModel" />
+            type="com.livetv.normal.viewmodel.SearchViewModel" />
     </data>
 
 <RelativeLayout

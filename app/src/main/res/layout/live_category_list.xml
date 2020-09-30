@@ -4,10 +4,10 @@
     <data>
         <variable
             name="liveCategory"
-            type="com.livetv.android.model.LiveTVCategory" />
+            type="com.livetv.normal.model.LiveTVCategory" />
         <variable
             name="liveCategoryAdapter"
-            type="com.livetv.android.view.adapters.LiveCategoryAdapter" />
+            type="com.livetv.normal.view.adapters.LiveCategoryAdapter" />
     </data>
 
     <LinearLayout

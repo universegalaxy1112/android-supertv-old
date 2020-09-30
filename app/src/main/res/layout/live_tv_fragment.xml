@@ -6,7 +6,7 @@
     <data>
         <variable
             name="liveTVFragmentVM"
-            type="com.livetv.android.viewmodel.LiveTVViewModel" />
+            type="com.livetv.normal.viewmodel.LiveTVViewModel" />
     </data>
 <RelativeLayout
     android:id="@+id/list_container"

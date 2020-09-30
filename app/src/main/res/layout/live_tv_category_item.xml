@@ -3,10 +3,10 @@
     <data>
         <variable
             name="liveTVCategoryItem"
-            type="com.livetv.android.model.LiveTVCategory" />
+            type="com.livetv.normal.model.LiveTVCategory" />
         <variable
             name="liveTVCategoryAdapter"
-            type="com.livetv.android.view.adapters.LiveTVCategoryRecyclerAdapter" />
+            type="com.livetv.normal.view.adapters.LiveTVCategoryRecyclerAdapter" />
     </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"

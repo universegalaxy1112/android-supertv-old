@@ -6,7 +6,7 @@
     <data>
         <variable
             name="mainCategoriesMenuFragmentVM"
-            type="com.livetv.android.viewmodel.MainCategoriesMenuViewModel" />
+            type="com.livetv.normal.viewmodel.MainCategoriesMenuViewModel" />
     </data>
 <LinearLayout
     android:id="@+id/mainLayout"

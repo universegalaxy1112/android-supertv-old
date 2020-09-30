@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/ffmpeg/My Application-extension-ffmpeg.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/ffmpeg/My Application-extension-ffmpeg.iml" group="My Application/extension-ffmpeg" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/flac/My Application-extension-flac.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/flac/My Application-extension-flac.iml" group="My Application/extension-flac" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/okhttp/My Application-extension-okhttp.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/okhttp/My Application-extension-okhttp.iml" group="My Application/extension-okhttp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/opus/My Application-extension-opus.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/opus/My Application-extension-opus.iml" group="My Application/extension-opus" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/vp9/My Application-extension-vp9.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/vp9/My Application-extension-vp9.iml" group="My Application/extension-vp9" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/My_Application.iml" filepath="$PROJECT_DIR$/.idea/modules/My_Application.iml" group="My_Application" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="My Application/app" />
-      <module fileurl="file://$PROJECT_DIR$/customkeyboard/customkeyboard.iml" filepath="$PROJECT_DIR$/customkeyboard/customkeyboard.iml" group="My Application/customkeyboard" />
-      <module fileurl="file://$PROJECT_DIR$/extensions/ffmpeg/extension-ffmpeg.iml" filepath="$PROJECT_DIR$/extensions/ffmpeg/extension-ffmpeg.iml" group="LiveTV/extension-ffmpeg" />
-      <module fileurl="file://$PROJECT_DIR$/extensions/opus/extension-opus.iml" filepath="$PROJECT_DIR$/extensions/opus/extension-opus.iml" group="LiveTV/extension-opus" />
-      <module fileurl="file://$PROJECT_DIR$/extensions/vp9/extension-vp9.iml" filepath="$PROJECT_DIR$/extensions/vp9/extension-vp9.iml" group="LiveTV/extension-vp9" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="LiveTV/library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="My Application/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customkeyboard/customkeyboard.iml" filepath="$PROJECT_DIR$/.idea/modules/customkeyboard/customkeyboard.iml" group="My Application/customkeyboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/ffmpeg/extension-ffmpeg.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/ffmpeg/extension-ffmpeg.iml" group="My Application/extension-ffmpeg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/flac/extension-flac.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/flac/extension-flac.iml" group="My Application/extension-flac" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/okhttp/extension-okhttp.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/okhttp/extension-okhttp.iml" group="My Application/extension-okhttp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/opus/extension-opus.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/opus/extension-opus.iml" group="My Application/extension-opus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/vp9/extension-vp9.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/extensions/vp9/extension-vp9.iml" group="My Application/extension-vp9" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/library/all/library-all.iml" filepath="$PROJECT_DIR$/.idea/modules/ExoPlayer-release-v2/library/all/library-all.iml" group="My Application/library-all" />
-      <module fileurl="file://$PROJECT_DIR$/playbacktests/playbacktests.iml" filepath="$PROJECT_DIR$/playbacktests/playbacktests.iml" group="LiveTV/playbacktests" />
     </modules>
   </component>
 </project>

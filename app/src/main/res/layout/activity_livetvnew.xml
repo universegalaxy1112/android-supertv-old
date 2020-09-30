@@ -4,13 +4,13 @@
     <data>
         <variable
             name="liveTVFragmentVM"
-            type="com.livetv.android.viewmodel.LiveTVViewModel" />
+            type="com.livetv.normal.viewmodel.LiveTVViewModel" />
         <variable
             name="currentCategory"
-            type="com.livetv.android.model.LiveTVCategory" />
+            type="com.livetv.normal.model.LiveTVCategory" />
         <variable
             name="currentProgram"
-            type="com.livetv.android.model.LiveProgram" />
+            type="com.livetv.normal.model.LiveProgram" />
     </data>
     <FrameLayout
         android:id="@+id/parent"
@@ -149,13 +149,13 @@
                         android:layout_weight="4"
                         android:focusable="false"
                         android:orientation="horizontal">
-                        <com.livetv.android.helper.TVRecyclerView
+                        <com.livetv.normal.helper.TVRecyclerView
                             android:id="@+id/programming_recycler"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             app:scrollMode="followScroll"
                             app:isLive = "true"/>
-                        <com.livetv.android.helper.TVRecyclerView
+                        <com.livetv.normal.helper.TVRecyclerView
                             android:id="@+id/live_category_recycler"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"

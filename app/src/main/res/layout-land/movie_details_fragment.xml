@@ -7,10 +7,10 @@
     <data>
         <variable
             name="movieDetailsVM"
-            type="com.livetv.android.viewmodel.MovieDetailsViewModel" />
+            type="com.livetv.normal.viewmodel.MovieDetailsViewModel" />
         <variable
             name="movieDetailItem"
-            type="com.livetv.android.model.Movie" />
+            type="com.livetv.normal.model.Movie" />
     </data>
 <RelativeLayout
     android:id="@+id/mainLayout"
