@@ -1,6 +1,6 @@
 package com.livetv.normal.viewmodel;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.livetv.normal.listeners.LoadProgramsForLiveTVCategoryResponseListener;
 import com.livetv.normal.listeners.LoadSeasonsForSerieResponseListener;
 import com.livetv.normal.listeners.LoadSubCategoriesResponseListener;

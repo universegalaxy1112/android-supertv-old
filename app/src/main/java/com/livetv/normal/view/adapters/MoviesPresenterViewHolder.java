@@ -1,8 +1,8 @@
 package com.livetv.normal.view.adapters;
 
-import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
-import android.support.v17.leanback.widget.Presenter.ViewHolder;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
+import androidx.leanback.widget.Presenter.ViewHolder;
 import android.view.View;
 
 public class MoviesPresenterViewHolder extends ViewHolder {

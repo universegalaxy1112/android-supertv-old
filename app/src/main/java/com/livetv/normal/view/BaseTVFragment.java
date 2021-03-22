@@ -5,7 +5,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v17.leanback.app.BrowseSupportFragment;
+import androidx.leanback.app.BrowseSupportFragment;
 
 import com.livetv.normal.R;
 import com.livetv.normal.model.ModelTypes.SelectedType;

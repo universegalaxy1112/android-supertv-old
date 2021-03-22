@@ -3,7 +3,7 @@ package com.livetv.normal.utils;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 import com.livetv.normal.LiveTvApplication;
 import java.io.File;

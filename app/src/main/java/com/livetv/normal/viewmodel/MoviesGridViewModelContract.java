@@ -1,6 +1,6 @@
 package com.livetv.normal.viewmodel;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.livetv.normal.model.Movie;
 import com.livetv.normal.model.Serie;
 

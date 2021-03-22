@@ -1,10 +1,10 @@
 package com.livetv.normal.viewmodel;
 
 import android.content.Context;
-import android.databinding.ObservableBoolean;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.databinding.ObservableBoolean;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import com.livetv.normal.listeners.MainCategorySelectedListener;
 import com.livetv.normal.managers.VideoStreamManager;
 import com.livetv.normal.model.MainCategory;

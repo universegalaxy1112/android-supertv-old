@@ -16,7 +16,7 @@
     android:focusable="false"
     android:orientation="vertical">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -44,7 +44,7 @@
                 android:onClick="@{moviesMenuFragmentVM.onSearchClick}"
                 app:hidden="@{moviesMenuFragmentVM.isTV}" />
         </RelativeLayout>
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:id="@+id/categories_nestedscrollview"
@@ -52,7 +52,7 @@
         android:layout_height="match_parent"
         android:focusable="false">
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/categories_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

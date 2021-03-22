@@ -2,8 +2,8 @@ package com.livetv.normal.viewmodel;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.databinding.ObservableBoolean;
-import android.support.annotation.NonNull;
+import androidx.databinding.ObservableBoolean;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import com.google.gson.Gson;
 import com.livetv.normal.R;
@@ -20,6 +20,9 @@ import com.livetv.normal.utils.Downloader;
 import com.livetv.normal.utils.networking.NetManager;
 import com.livetv.normal.utils.networking.WebConfig;
 import com.livetv.normal.viewmodel.AccountDetailsViewModelContract.ViewModel;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class AccountDetailsViewModel implements ViewModel {
     public ObservableBoolean isLoading = new ObservableBoolean(false);
@@ -64,7 +67,7 @@ public class AccountDetailsViewModel implements ViewModel {
 
     @Override
     public void checkForUpdate(android.view.View view) {
-       /* NetManager.getInstance().performCheckForUpdate(new StringRequestListener() {
+        NetManager.getInstance().performCheckForUpdate(new StringRequestListener() {
             @Override
             public void onCompleted(String response) {
                 if (!TextUtils.isEmpty(response)) {
@@ -89,7 +92,7 @@ public class AccountDetailsViewModel implements ViewModel {
             public void onError() {
 
             }
-        });*/
+        });
     }
 
     public void downloadUpdate(String location, ProgressDialog progress) {

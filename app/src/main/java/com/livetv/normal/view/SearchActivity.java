@@ -1,8 +1,8 @@
 package com.livetv.normal.view;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.core.content.ContextCompat;
 import android.view.KeyEvent;
 import com.livetv.normal.R;
 import com.livetv.normal.utils.Device;
@@ -16,7 +16,7 @@ public class SearchActivity extends BaseActivity {
         return this.searchFragment;
     }
 
-    public android.support.v4.app.Fragment getTVFragment() {
+    public Fragment getTVFragment() {
         return this.searchTVFragment;
     }
 

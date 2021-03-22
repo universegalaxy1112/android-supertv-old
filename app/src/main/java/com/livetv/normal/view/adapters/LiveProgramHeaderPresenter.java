@@ -2,7 +2,7 @@ package com.livetv.normal.view.adapters;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.v17.leanback.widget.Presenter;
+import androidx.leanback.widget.Presenter;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.livetv.normal.R;

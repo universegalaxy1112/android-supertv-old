@@ -1,8 +1,8 @@
 package com.livetv.normal.view.adapters;
 
-import android.support.v17.leanback.widget.ArrayObjectAdapter;
-import android.support.v17.leanback.widget.Presenter;
-import android.support.v17.leanback.widget.PresenterSelector;
+import androidx.leanback.widget.ArrayObjectAdapter;
+import androidx.leanback.widget.Presenter;
+import androidx.leanback.widget.PresenterSelector;
 import java.util.Comparator;
 import java.util.TreeSet;
 

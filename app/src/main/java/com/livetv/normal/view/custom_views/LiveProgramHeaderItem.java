@@ -1,6 +1,6 @@
 package com.livetv.normal.view.custom_views;
 
-import android.support.v17.leanback.widget.HeaderItem;
+import androidx.leanback.widget.HeaderItem;
 import com.livetv.normal.model.LiveProgram;
 
 public class LiveProgramHeaderItem extends HeaderItem {

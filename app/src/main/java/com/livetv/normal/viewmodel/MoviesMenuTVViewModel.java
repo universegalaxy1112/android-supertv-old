@@ -1,7 +1,7 @@
 package com.livetv.normal.viewmodel;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import com.livetv.normal.viewmodel.Lifecycle.View;
 import com.livetv.normal.viewmodel.MoviesMenuTVViewModelContract.ViewModel;
 

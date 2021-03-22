@@ -2,19 +2,19 @@ package com.livetv.normal.view;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.support.v17.leanback.app.BackgroundManager;
-import android.support.v17.leanback.widget.ArrayObjectAdapter;
-import android.support.v17.leanback.widget.HeaderItem;
-import android.support.v17.leanback.widget.ListRow;
-import android.support.v17.leanback.widget.ListRowPresenter;
-import android.support.v17.leanback.widget.OnItemViewClickedListener;
-import android.support.v17.leanback.widget.OnItemViewSelectedListener;
-import android.support.v17.leanback.widget.Presenter;
-import android.support.v17.leanback.widget.Presenter.ViewHolder;
-import android.support.v17.leanback.widget.Row;
-import android.support.v17.leanback.widget.RowPresenter;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.leanback.app.BackgroundManager;
+import androidx.leanback.widget.ArrayObjectAdapter;
+import androidx.leanback.widget.HeaderItem;
+import androidx.leanback.widget.ListRow;
+import androidx.leanback.widget.ListRowPresenter;
+import androidx.leanback.widget.OnItemViewClickedListener;
+import androidx.leanback.widget.OnItemViewSelectedListener;
+import androidx.leanback.widget.Presenter;
+import androidx.leanback.widget.Presenter.ViewHolder;
+import androidx.leanback.widget.Row;
+import androidx.leanback.widget.RowPresenter;
 import android.util.DisplayMetrics;
 import android.view.View.OnClickListener;
 import com.bumptech.glide.Glide;
@@ -292,7 +292,7 @@ public class MoviesMenuTVFragment extends BaseTVFragment implements MoviesMenuVi
 
     /* access modifiers changed from: protected */
     public void updateBackground(String uri) {
-        Glide.with(this).load(uri).centerCrop().into(new SimpleTarget<GlideDrawable>(this.mMetrics.widthPixels, this.mMetrics.heightPixels) {
+        Glide.with(requireActivity()).load(uri).centerCrop().into(new SimpleTarget<GlideDrawable>(this.mMetrics.widthPixels, this.mMetrics.heightPixels) {
             public void onResourceReady(GlideDrawable resource, GlideAnimation<? super GlideDrawable> glideAnimation) {
                 MoviesMenuTVFragment.this.mBackgroundManager.setDrawable(resource);
             }

@@ -18,7 +18,7 @@
     android:orientation="vertical"
     android:tag="layout-land/main_categories_menu_fragment_0">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -46,7 +46,7 @@
                 android:onClick="@{mainCategoriesMenuFragmentVM.onAccountClick}"
                 app:hidden="@{mainCategoriesMenuFragmentVM.isTV}" />
         </RelativeLayout>
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <ImageView
         android:layout_width="400dp"
@@ -62,7 +62,7 @@
         android:paddingTop="5dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/main_categories_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,8 +1,8 @@
 package com.livetv.normal.view;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.core.content.ContextCompat;
 import com.livetv.normal.R;
 import com.livetv.normal.utils.Device;
 
@@ -14,7 +14,7 @@ public class MoviesMenuActivity extends BaseActivity {
         return this.moviesMenuFragment;
     }
 
-    public android.support.v4.app.Fragment getTVFragment() {
+    public Fragment getTVFragment() {
         return this.moviesMenuTVFragment;
     }
 

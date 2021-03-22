@@ -2,15 +2,15 @@ package com.livetv.normal.view.adapters;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.android.databinding.library.baseAdapters.BR;
+import com.livetv.normal.BR;
 import com.livetv.normal.LiveTvApplication;
 import com.livetv.normal.R;
 import com.livetv.normal.listeners.LoadEpisodesForSerieResponseListener;

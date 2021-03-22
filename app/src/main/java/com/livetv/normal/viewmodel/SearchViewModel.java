@@ -1,10 +1,10 @@
 package com.livetv.normal.viewmodel;
 
 import android.content.Context;
-import android.databinding.ObservableBoolean;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.databinding.ObservableBoolean;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -133,7 +133,7 @@ public class SearchViewModel implements ViewModel, MovieSelectedListener, EditTe
         });
 
         this.movies = new ArrayList();
-        this.rowsRecyclerAdapter = new MoviesRecyclerAdapter(this.mMoviesGridRV, this.mContext, this.movies, 0, this, true);
+        this.rowsRecyclerAdapter = new MoviesRecyclerAdapter(this.mMoviesGridRV, this.mContext, this.movies, 0, this, true, true);
         this.mMoviesGridRV.setAdapter(this.rowsRecyclerAdapter);
     }
 

@@ -1,9 +1,9 @@
 package com.livetv.normal.binding;
 
-import android.databinding.BindingAdapter;
+import androidx.databinding.BindingAdapter;
 import android.graphics.BitmapFactory;
 import android.os.Build.VERSION;
-import android.support.v17.leanback.widget.Presenter;
+import androidx.leanback.widget.Presenter;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.TextUtils;
@@ -42,12 +42,12 @@ public class BindingAdapters {
     @BindingAdapter({"imageUrl"})
     public static void loadImage(ImageView imageView, String url) {
         if (!TextUtils.isEmpty(url)) {
-
+            String newUrl = url.replace("http:", "https:");
             try {
-                Picasso.with(imageView.getContext()).load(url).placeholder((int) R.drawable.imageview_placeholder).into(imageView);
+                Picasso.with(imageView.getContext()).load(newUrl).placeholder(R.drawable.imageview_placeholder).into(imageView);
             } catch (IllegalArgumentException e) {
+                Glide.with(imageView.getContext().getApplicationContext()).load(newUrl).centerCrop().placeholder( R.drawable.imageview_placeholder).centerCrop().into(imageView);
                 Log.d("DNLS", "Glide failed");
-                Glide.with(imageView.getContext().getApplicationContext()).load(url).placeholder((int) R.drawable.imageview_placeholder).centerCrop().into(imageView);
             }
         }
     }

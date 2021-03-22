@@ -1,8 +1,8 @@
 package com.livetv.normal.viewmodel;
 
 import android.content.Context;
-import android.databinding.ObservableBoolean;
-import android.support.annotation.NonNull;
+import androidx.databinding.ObservableBoolean;
+import androidx.annotation.NonNull;
 import android.util.Log;
 import android.view.View.OnClickListener;
 import com.google.gson.Gson;

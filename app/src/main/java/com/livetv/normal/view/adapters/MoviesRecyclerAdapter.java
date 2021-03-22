@@ -4,15 +4,15 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Handler;
-import android.support.v17.leanback.widget.Presenter;
-import android.support.v7.widget.RecyclerView;
+import androidx.leanback.widget.Presenter;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.databinding.library.baseAdapters.BR;
+import com.livetv.normal.BR;
 import com.livetv.normal.R;
 import com.livetv.normal.binding.BindingAdapters;
 import com.livetv.normal.listeners.ImageLoadedListener;

@@ -2,7 +2,7 @@ package com.livetv.normal.viewmodel;
 
 import android.app.ProgressDialog;
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import com.google.gson.Gson;
 import com.livetv.normal.listeners.DownloaderListener;

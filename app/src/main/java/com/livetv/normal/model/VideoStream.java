@@ -1,6 +1,6 @@
 package com.livetv.normal.model;
 
-import android.databinding.BaseObservable;
+import androidx.databinding.BaseObservable;
 
 public abstract class VideoStream extends BaseObservable {
     private int ContentId;
